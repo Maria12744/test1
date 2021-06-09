@@ -1,0 +1,532 @@
+@font-face {
+  font-family: "PostNoBillsJaffna-SemiBold";
+  src: url("../fonts/PostNoBillsJaffna-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url("../fonts/PTSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.main_menu .menu ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.section-5 .categories .buttons a {
+  color: white;
+  background-color: #0F0F0F;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "PTSans-Regular";
+  padding: 10px 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  background-color: black;
+}
+.top div ul li {
+  display: inline;
+  font-size: 12px;
+  padding-left: 20px;
+  color: lightgrey;
+}
+.top div ul li a {
+  color: lightgrey;
+  text-decoration: none;
+  font-family: "PTSans-Regular";
+}
+
+.main_menu {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-around;
+  background-color: #0F0F0F;
+}
+.main_menu .logo {
+  align-self: center;
+}
+.main_menu .logo p {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.3;
+  text-transform: uppercase;
+  font-family: "PostNoBillsJaffna-SemiBold";
+}
+.main_menu .menu ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "PTSans-Regular";
+  font-size: 14px;
+}
+.main_menu .menu ul li {
+  padding: 30px 20px 30px 20px;
+}
+.main_menu .menu ul li:hover {
+  background-color: #1F1F1F;
+}
+.head_section {
+  background: url("../img/Rectangle3.png") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.head_section .logo-2 {
+  background-color: transparent;
+  border: 5px solid white;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 320px;
+  height: fit-content;
+  padding-top: 45px;
+  margin-bottom: 80px;
+}
+.head_section .logo-2 .p-2 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "PTSans-Regular";
+  padding-top: 10px;
+  padding-bottom: 94px;
+  margin-top: 0;
+}
+.head_section .logo-2 img {
+  align-self: center;
+}
+.head_section .logo-2 p {
+  color: white;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0;
+  font-family: "PostNoBillsJaffna-SemiBold";
+  margin-bottom: 4px;
+}
+.head_section .description {
+  width: 730px;
+  align-self: center;
+}
+.head_section .description p {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "PTSans-Regular";
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.section-1 .section-left {
+  background-color: black;
+  padding: 50px 20px 70px 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.section-1 .section-left h3 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 36px;
+  font-weight: 700;
+  align-self: center;
+}
+.section-1 .section-left img {
+  align-self: center;
+  padding-bottom: 50px;
+}
+.section-1 .section-left .items {
+  display: flex;
+  flex-direction: row;
+}
+.section-1 .section-left .items .item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  padding-right: 30px;
+}
+.section-1 .section-left .items .item-1 .img {
+  background-color: #191B1C;
+  width: fit-content;
+  padding: 55px 22px 0 22px;
+  margin-bottom: 25px;
+  transition: 0.2s linear;
+}
+.section-1 .section-left .items .item-1 .img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.section-1 .section-left .items .item-1 .par-1 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.section-1 .section-left .items .item-1 .par-2 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 16px;
+  font-weight: 700;
+}
+.section-1 .section-right {
+  background: url("../img/Rectangle 8.png") no-repeat center;
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+}
+.section-1 .section-right p {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 36px;
+  font-weight: 700;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.section-1 .section-right img {
+  align-self: center;
+  margin-bottom: 30px;
+}
+.section-1 .section-right div {
+  border: 1px solid white;
+  width: fit-content;
+  align-self: center;
+  padding: 8px 30px;
+  transition: 0.2s linear;
+}
+.section-1 .section-right div:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.section-1 .section-right div a {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "PTSans-Regular";
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.section-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.section-2 .left {
+  width: 50%;
+}
+.section-2 .right {
+  width: 50%;
+  background-color: black;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.section-2 .right p {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 28px;
+  font-weight: 400;
+  align-self: center;
+  text-transform: uppercase;
+}
+.section-2 .right img {
+  align-self: center;
+  padding-bottom: 20px;
+}
+.section-2 .right .right-p {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "PTSans-Regular";
+  text-transform: none;
+  line-height: 21px;
+  width: 70%;
+  text-align: center;
+}
+.section-2 .right div {
+  border: 1px solid white;
+  width: fit-content;
+  align-self: center;
+  padding: 8px 30px;
+  transition: 0.2s linear;
+  margin-top: 30px;
+}
+.section-2 .right div:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.section-2 .right div a {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "PTSans-Regular";
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.section-3 {
+  background-color: black;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.section-3 h3 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 30px;
+  font-weight: 700;
+  align-self: center;
+  text-transform: uppercase;
+}
+.section-3 img {
+  align-self: center;
+  padding-bottom: 20px;
+}
+.section-3 .items {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.section-3 .items .item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  padding-right: 30px;
+}
+.section-3 .items .item-1 .img {
+  background-color: #191B1C;
+  width: fit-content;
+  padding: 55px 22px 0 22px;
+  margin-bottom: 25px;
+  transition: 0.2s linear;
+}
+.section-3 .items .item-1 .img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.section-3 .items .item-1 .par-1 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.section-3 .items .item-1 .par-2 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-4 {
+  background-color: #0F0F0F;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.section-4 h3 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 30px;
+  font-weight: 700;
+  align-self: center;
+  text-transform: uppercase;
+}
+.section-4 img {
+  align-self: center;
+  padding-bottom: 20px;
+}
+.section-4 .logos {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.section-4 .logos img {
+  padding-right: 30px;
+}
+
+.section-5 {
+  width: 100%;
+  background: url("../img/Rectangle 15.png") no-repeat center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section-5 .about {
+  width: 25%;
+}
+.section-5 .about h4 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 24px;
+  font-weight: 400;
+  align-self: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.section-5 .about p {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "PTSans-Regular";
+  text-transform: none;
+  line-height: 21px;
+}
+.section-5 .categories {
+  width: 25%;
+}
+.section-5 .categories h4 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 24px;
+  font-weight: 400;
+  align-self: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.section-5 .categories .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.section-5 .categories .buttons a {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  transition: 0.2s;
+}
+.section-5 .categories .buttons a:hover {
+  transform: scale(1.1);
+}
+.section-5 .spam {
+  width: 30%;
+}
+.section-5 .spam h4 {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 24px;
+  font-weight: 400;
+  align-self: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.section-5 .spam p {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "PTSans-Regular";
+  text-transform: none;
+  line-height: 21px;
+  margin-bottom: 35px;
+}
+.section-5 .spam input[type=email] {
+  background: lightgrey;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  margin-right: 0;
+}
+.section-5 .spam input[type=submit] {
+  background-color: #0F0F0F;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "PTSans-Regular";
+  padding: 10px 20px;
+  border: none;
+  margin-left: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.section-5 .spam input[type=submit]:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #0F0F0F;
+  padding: 12px 40px;
+}
+footer p {
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "PTSans-Regular";
+  text-transform: none;
+}

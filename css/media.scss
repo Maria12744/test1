@@ -1,0 +1,68 @@
+@media screen and (max-width: 992px){
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        background-color: black;
+     
+    
+        div ul li{
+            display: inline;
+            font-size: $font;
+            padding-left: 5px;
+            color: $color;
+    
+            a{
+               color: $color; 
+               text-decoration: none;
+               font-family: 'PTSans-Regular';
+            }
+            
+        }
+    
+    }
+    .head_section{
+        background: url("../img/Rectangle3.png") no-repeat center;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        .logo-2{
+            background-color: transparent;
+            border: 5px solid $color2;
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+            align-content: center;
+            justify-content:center;
+            width: 320px;
+            height: fit-content;
+            padding-top: 45px;
+            margin-bottom: 80px;
+            .p-2{
+                @include text;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                margin-top: 0;
+            }
+            img{
+                align-self: center;
+            }
+            p{
+                color: $color2;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 0.9;
+                text-transform: uppercase;
+                text-align: center;
+                padding-bottom: 0;
+                font-family: 'PostNoBillsJaffna-SemiBold' ;
+                margin-bottom: 4px;
+            }  
+        }
+    }
+}
